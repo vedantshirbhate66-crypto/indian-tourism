@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism in India - Apply</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #FFD700, #FF6347); /* Gold to tomato red */
+            color: #333;
+        }
+        header {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #FF9933;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #e67e22;
+        }
+        section {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        form {
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #FF9933;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #e67e22;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0,0,0,0.8);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Apply to Participate</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="apply.html">Apply</a>
+            <a href="activities.html">Activities</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="map.html">Map</a>
+        </nav>
+    </header>
+    <section>
+        <h2>Join Our Tourism Program</h2>
+        <p>Apply now to participate in exclusive tours, get personalized itineraries, and access insider tips. Whether you're a solo traveler or with family, we have options for everyone!</p>
+        <form action="#" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+           <label for="destination">Preferred Destination:</label>
+            <select id="destination" name="destination">
+                <option value="">Select a destination</option>
+                <option value="taj-mahal">Taj Mahal, Agra</option>
+                <option value="goa">Goa Beaches</option>
+                <option value="kerala">Kerala Backwaters</option>
+                <option value="himalayas">Himalayas</option>
+                <option value="rajasthan">Rajasthan Desert</option>
+                <option value="varanasi">Varanasi</option>
+                <option value="other">Other</option>
+            </select>	
+            <label for="interests">Interests (e.g., adventure, culture, relaxation):</label>
+            <textarea id="interests" name="interests" rows="4"></textarea>
+            <label for="experience">Travel Experience Level:</label>
+            <select id="experience" name="experience">
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="expert">Expert</option>
+            </select>
+            <button type="submit">Submit Application</button>
+        </form>
+    </section>
+</body>
+</html>
